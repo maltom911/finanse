@@ -73,7 +73,8 @@ body {
   .image-box__one {
     background-image: url(../img/one.jpg); }
   .image-box__two {
-    background-image: url(../img/two.jpg); }
+    background-image: url(../img/two.jpg);
+    background-position: right; }
   .image-box__three {
     background-image: url(../img/three.jpg); }
   .image-box__four {
@@ -93,7 +94,8 @@ body {
   .image-box__eleven {
     background-image: url(../img/eleven.jpg); }
   .image-box__twelve {
-    background-image: url(../img/twelve.jpg); }
+    background-image: url(../img/twelve.jpg);
+    background-position: right; }
   .image-box__thirteen {
     background-image: url(../img/thirteen.jpg); }
   .image-box__fourteen {
@@ -241,7 +243,8 @@ body {
 .page {
   height: 100vh;
   position: relative;
-  background-image: linear-gradient(to right top, #009bff, #51adfa, #7cbef4, #a3cdee, #c9dce9); }
+  background-image: linear-gradient(to right top, #009bff, #51adfa, #7cbef4, #a3cdee, #c9dce9);
+  overflow: scroll; }
   .page__wrapper {
     position: absolute;
     top: 50%;

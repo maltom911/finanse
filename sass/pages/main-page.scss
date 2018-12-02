@@ -2,6 +2,7 @@
     height: 100vh;
     position: relative;
     background-image: linear-gradient(to right top, #009bff, #51adfa, #7cbef4, #a3cdee, #c9dce9);
+    overflow: scroll;
 
     &__wrapper {
         position: absolute;
@@ -11,13 +12,13 @@
         height: 80rem;
         width: 80%;
         padding: 5rem;
-
+        // 1600px
         @media (max-width: 100em) {
             & {
                 width: 90%;
             }
         }
-
+        // 1024px
         @media (max-width: 64em) {
             & {
                 width: 100%;
