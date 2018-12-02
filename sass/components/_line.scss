@@ -1,0 +1,31 @@
+.line {
+    height: 4rem;
+    width: 1px;
+    margin: auto;
+
+    &--left {
+        height: 8rem;
+        width: 8rem;
+        margin-left: 30%;
+        display: inline-block;
+    }
+
+    &__item {
+        border-left: 5px dashed gray;
+        height: 100%;
+        width: 100%;
+
+
+        &--left {
+            border-left: 5px dashed gray;
+            border-bottom: 5px dashed gray;
+            width: 100%;
+            
+
+        }
+
+    }
+
+    
+
+}

@@ -1,0 +1,31 @@
+.page {
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to right top, #009bff, #51adfa, #7cbef4, #a3cdee, #c9dce9);
+
+    &__wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 80rem;
+        width: 80%;
+        padding: 5rem;
+
+        @media (max-width: 100em) {
+            & {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 64em) {
+            & {
+                width: 100%;
+            }
+        }
+    }
+
+    &__container {}
+
+    &__row {}
+}

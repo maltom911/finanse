@@ -1,0 +1,23 @@
+.page-item {
+    padding-right: 1rem;
+}
+
+.page-link {
+    padding: 1rem 2rem;
+    font-size: 1.7rem;
+
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #008ae3;
+    
+}
+
+.page-content {
+    display: none;
+}
+.page-content-active {
+    display: block;
+}

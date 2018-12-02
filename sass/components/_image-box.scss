@@ -1,0 +1,72 @@
+
+//and other img
+.image-box {
+  height: 56rem;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 1);
+  
+  
+
+  &__one {
+    background-image: url(../img/one.jpg);
+  }
+
+  &__two {
+    background-image: url(../img/two.jpg);
+  }
+
+  &__three {
+    background-image: url(../img/three.jpg);
+  }
+  &__four {
+    background-image: url(../img/four.jpg);
+  }
+
+  &__five {
+    background-image: url(../img/five.jpg);
+  }
+
+  &__six {
+    background-image: url(../img/six.jpg);
+  }
+  &__seven {
+    background-image: url(../img/seven.jpg);
+  }
+
+  &__eight {
+    background-image: url(../img/eight.jpg);
+  }
+
+  &__nine {
+    background-image: url(../img/nine.jpg);
+  }
+  &__ten {
+    background-image: url(../img/ten.jpg);
+  }
+  &__eleven {
+    background-image: url(../img/eleven.jpg);
+  }
+  &__twelve {
+    background-image: url(../img/twelve.jpg);
+  }
+  &__thirteen {
+    background-image: url(../img/thirteen.jpg);
+  }
+  &__fourteen {
+    background-image: url(../img/fourteen.jpg);
+  }
+  &__table-one {
+    background-image: url(../img/table-one.png);
+  }
+  &__table-two {
+    background-image: url(../img/table-one.png);
+  }
+
+
+}
+.img-height {
+  height: 45rem;
+  
+}

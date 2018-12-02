@@ -1,0 +1,21 @@
+.main-text {
+    font-size: 2rem;
+    text-align: justify;
+
+    &--bold {
+        font-weight: 700;
+    }
+    &--red {
+        color: red;
+    }
+    &--small {
+        font-size: 2.2rem; 
+    }
+    &--smallest {
+        font-size: 1.8rem; 
+    }
+    &--smaller {
+        font-size: 1.5rem;
+    }
+
+}

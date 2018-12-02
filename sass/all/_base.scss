@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%;
+
+    @media (max-width: 100em) {
+        & {
+            font-size: 55%;
+        }
+    }
+
+    @media (max-width: 85em) {
+        & {
+            font-size: 50%;
+        }
+    }
+    @media (max-width: 64em) {
+        & {
+            font-size: 45%;
+        }
+    }
+
+
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to right top, #009bff, #51adfa, #7cbef4, #a3cdee, #c9dce9);
+}
+
+// 1600px
+@media (max-width: 100em) {}
+
+// 1360px
+@media (max-width: 85em) {
+   
+}
+
+// 1024px
+@media (max-width: 64em) {}
+
+// 600px
+@media (max-width: 37.5em) {}
+
+
+// 1920px
+@media (min-width: 120.1em) {}
